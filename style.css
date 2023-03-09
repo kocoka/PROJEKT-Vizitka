@@ -19,6 +19,8 @@ body {
 }
 h1 {
     color: #d63031;
+    font-size: 36px;
+    font-weight: bold;
 }
 .box {
     display: inline-block;
@@ -27,8 +29,9 @@ h1 {
     background-color: antiquewhite;
     position: relative;
     border-radius: 10px;
-    left:30%;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.7);
+    left:33.3%;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.7);
+    font-size: 18px;
 }
 .box img {
     width: 150px;
@@ -37,7 +40,7 @@ h1 {
     border: white solid 3px;
     position:absolute;
     left: 460px;
-    bottom: 260px;
+    bottom: 390px;
 }
 h1,
 p {
@@ -50,4 +53,30 @@ a {
     text-decoration: none;
     text-transform:uppercase;
     font-weight: bold;
+    color: antiquewhite;
+    font-size: 18px;
+    padding: 10px;
+}
+.Twitter,
+.Facebook {
+    display:block;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.Facebook {
+    background-color: #3b5998;
+    margin-bottom: 30px;
+    
+}
+.Twitter {
+    background-color: #1da1f2;
+    margin-bottom: 5px;
+}
+.Twitter a:hover {
+    background-color: #0b7bc1;
+}
+.Facebook a:hover {
+    background-color: #2b406e;
 }
